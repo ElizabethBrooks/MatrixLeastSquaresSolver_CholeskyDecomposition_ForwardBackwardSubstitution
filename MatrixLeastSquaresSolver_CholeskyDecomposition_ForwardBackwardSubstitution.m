@@ -90,7 +90,8 @@ function m = solveLeastSquaresB(g)
       m = backwardSubstitutionA(E,y,3);
     end
   end
-  %B\b
+  %B\b %Use to compare results and determine accuracy
+  %a = m-x %Use to compare results and determine accuracy
 end %End function solveLeastSquaresB
 %
 end %End main function of script
